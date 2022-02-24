@@ -12,6 +12,7 @@ export class ProductsComponent implements OnInit {
   public productList: any;
   searchKey: string = '';
   public filterCategory: any;
+  list="names";
   constructor(private api: ApiService, private cartService: CartService) { }
 
   ngOnInit(): void {
